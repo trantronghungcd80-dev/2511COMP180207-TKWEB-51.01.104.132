@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <meta charset="UTF-8">
+    <title>Image Hover</title>
+    <style>
+        .container {
+            width: 90%;
+            padding: 20px;
+            margin: 70px auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .box {
+            width: 250px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 0 20px 2px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .box img {
+            width: 100%;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .box:hover img {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="https://lh4.googleusercontent.com/proxy/DOrfY0nD77oMI-N4aXSvM_rPoVtY-G51hcIwBFjCXXG7UqmS_HXYX6g2I3n4IWU87rD1I1Q9c4GaR3LmEJmSJNKzS5-JL1-XujyDqT5ZN4L8_Zk9Q0rj0JkNITfKh4IZgziJL6wLWHP8s6rqPBeM4UYblTan" alt="1" />
+        </div>
+        <div class="box">
+            <img src="https://pos.nvncdn.com/3c8244-211061/art/artCT/20220824_j0zRaUfoWTSZykPjwf0MdWvx.jpg" alt="2" />
+        </div>
+        <div class="box">
+            <img src="https://bizweb.dktcdn.net/100/301/479/products/svhms-me-woran38.png?v=1597219302113" alt="3" />
+        </div>
+        <div class="box">
+            <img src="https://bizweb.dktcdn.net/100/363/770/products/20240809-d735v02g88-jpeg-1730449967806.jpg?v=1730449973153" alt="4" />
+        </div>
+        <div class="box">
+            <img src="https://www.acfc.com.vn/acfc_wp/wp-content/uploads/2024/06/phantom-gx-2-elite-fg-low-top-football-boot-8JGqj6-819x1024.webp" alt="5" />
+        </div>
+    </div>
+</body>
+</html>
